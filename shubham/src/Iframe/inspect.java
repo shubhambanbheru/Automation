@@ -18,8 +18,7 @@ public class inspect {
 		   Thread.sleep(3000);
 		   
 		   driver.get("https://www.facebook.com/");
-		   
-		   Actions
+		
 	}
 	}
 	
