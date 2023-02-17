@@ -19,7 +19,7 @@ package Starpattern;
 						          //2<=1   -  False         2<=3  - True     
 						          // 5<=1   -  false        3<=3  - True
 						                               //   4<=3  -  false					                                //    5<=3   -false
-						System.out.print("");     //  					                           //* *   
+						System.out.print("*");     //  					                           //* *   
 					}
 					else
 						System.out.print(" ");

@@ -3,16 +3,18 @@ package LogicalProgramprac;
 public class Pallindromeno {
 
 	public static void main(String[] args) {
-		
-		int input=123;
-		int sum=0;
-		for(sum =0;input>0;input=input/10) {		//123/10=12  12/10=1   1/10=0 
+
+		int no =1223;
+		int sum =0;
+		for(sum=0;no>0;no=no/10) {
 			
-			int rem=input%10;		//123%%10=3     12%10=2     1%10=1
+			int rem =no%10;
 			
-			sum=sum*10+rem;
+			sum =sum*10+rem;
 		}
 		
 		System.out.println(sum);
-	}
+		}
+
 }
+

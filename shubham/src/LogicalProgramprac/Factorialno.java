@@ -12,11 +12,12 @@ public class Factorialno {
 		int input =sc.nextInt();
 		
 		int fact =1;
+		//10! =9*7*6*5*4*3*2*1 
 		
 		for(int i=1;i<input;i++) {
 			fact =fact*i;
-			System.out.println(fact);
 		}
-		
+		System.out.println(fact);
+
 	}
 }

@@ -10,9 +10,9 @@ public class Duplicatetwoarrays {
 		int arr1[] = { 10, 20, 32, 122, 322, 21, 2 };
 		int arr2[] = { 20, 32, 12, 331, 131, 21 };
 
-	//	System.out.println(arr1);
-		// Intersection(arr1, arr2);
-	//	union(arr1, arr2);
+		// System.out.println(arr1);
+		Intersection(arr1, arr2);
+		union(arr1, arr2);
 	}
 
 	static void union(int arr1[], int arr2[]) {

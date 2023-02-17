@@ -1,22 +1,35 @@
 package LogicalProgram;
 
+import java.util.Scanner;
+
 public class Leapyear {
 
 	public static void main(String[] args) {
 
-		int year = 2000;
+		System.out.println("Enter a year = ");
+		int year1;
+		Scanner sc = new Scanner(System.in);
+		year1 = sc.nextInt();
 
-		if (year % 400 == 0) {
-			System.out.println("leap");
-		} else if (year % 100 == 0) {
-			System.out.println("not leap");
-		} else if (year % 4 == 0) {
-			System.out.println("leap");
+		if ((year1 % 4 == 0) && (year1 % 100 != 0) || (year1 % 400 == 0)) {
+			System.out.println("Specified year is leap year");
 		} else {
-			System.out.println("not leap");
+			System.out.println("Specified year is not a leap year");
 		}
 
-//			if(((year%4 ==0) && (year%100 == 0)) || (year%400 ==0))
+//		int year = 2000;
+//
+//		if (year % 400 == 0) {
+//			System.out.println("leap");
+//		} else if (year % 100 == 0) {
+//			System.out.println("not leap");
+//		} else if (year % 4 == 0) {
+//			System.out.println("leap");
+//		} else {
+//			System.out.println("not leap");
+//		}
+//
+//			if(((year%4 ==0) && (year%100 != 0)) || (year%400 ==0))
 //				
 //				System.out.println("Leap year");
 //			else

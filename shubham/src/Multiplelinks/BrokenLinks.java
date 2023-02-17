@@ -18,7 +18,7 @@ package Multiplelinks;
 		public static void main(String[] args) throws IOException {
 
 			
-		System.setProperty("webdriver.chrome.driver", "C:\\Installer\\chromedriver.exe");	
+		System.setProperty("webdriver.chrome.driver", "C:\\Browser drivers\\chromedriver.exe");	
 		
 		WebDriver driver =new ChromeDriver();
 		

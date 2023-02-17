@@ -1,3 +1,4 @@
+
 package LogicalProgramprac;
 
 public class Palindrome {
@@ -20,3 +21,5 @@ public class Palindrome {
 		System.out.println(rev1);
 	}
 }
+
+
